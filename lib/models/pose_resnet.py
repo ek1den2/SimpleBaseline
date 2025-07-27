@@ -140,7 +140,7 @@ class Bottleneck_CAFFE(nn.Module):
 
         return out
 
-
+# コア部分
 class PoseResNet(nn.Module):
 
     def __init__(self, block, layers, cfg, **kwargs):
